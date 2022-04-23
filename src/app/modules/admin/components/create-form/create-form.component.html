@@ -1,0 +1,29 @@
+<div class="container pt-5 pb-5 div_form">
+    <div class="col-12">
+        <div class="d-flex flex-wrap justify-content-between">
+
+            <div class="card shadow mt-2">
+                <div class="card-body">
+                    <h5 class="card-title">A&ntilde;adir Jugador</h5>
+
+                    <form [formGroup]="createForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre" class="form-control" formControlName="name" name="name" />
+                        </div>
+        
+                        <div class="form-group">
+                            <input type="text" id="age" placeholder="Edad" class="form-control" formControlName="age" name="age" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="position" placeholder="Posici&oacute;n" class="form-control" formControlName="position" name="position" />
+                        </div>
+
+                        <input type="submit" class="btn btn-primary w-100" value="A&ntilde;adir Jugador" name="">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+
+<div id="div_header">
+    <h1 id="header">Plantilla del Paris Saint-Germain</h1>
+</div>
+
+<div class="container pt-5 pb-5">
+
+    <div class="col-12">
+
+        <div class="d-flex flex-wrap justify-content-between">
+
+            <div class="card shadow mt-2"*ngFor="let player of players">
+                <div class="card-body">
+                    <h5 class="card-title">{{player.name}}</h5>
+                    <p class="card-text">Posición: {{player.position}}</p>
+                    <button class="btn btn-primary" (click)="redirectToSee(player.id)">Ver en detalle</button><br><br>
+                    <button class="btn btn-warning" (click)="redirectToModify(player.id)">Modificar</button><br><br>
+                    <button class="btn btn-danger" (click)="deletePlayer(player.id)">Eliminar</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="addbtn btn btn-info" (click)="redirectToCreate()">A&ntilde;adir un Jugador</button>
+    </div>
+</div>

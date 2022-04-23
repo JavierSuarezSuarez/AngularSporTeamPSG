@@ -1,0 +1,29 @@
+<div class="container pt-5 pb-5 div_form">
+    <div class="col-12">
+        <div class="d-flex flex-wrap justify-content-between">
+
+            <div class="card shadow mt-2">
+                <div class="card-body">
+                    <h5 class="card-title">Modificar Jugador</h5>
+
+                    <form [formGroup]="modifyForm" (ngSubmit)="modifyPlayer()">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="{{player.name}}" class="form-control" formControlName="name" name="name" value="{{player.name}}"/>
+                        </div>
+        
+                        <div class="form-group">
+                            <input type="text" id="age" placeholder="{{player.age}}" class="form-control" formControlName="age" name="age" value="{{player.age}}" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="position" placeholder="{{player.position}}" class="form-control" formControlName="position" name="position" value="{{player.position}}" />
+                        </div>
+
+                        <input type="submit" class="btn btn-primary w-100" value="Confirmar Cambios" name="">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
