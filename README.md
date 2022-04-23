@@ -1,27 +1,11 @@
-# SportTeam
+# Angular SportTeam PSG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+Este proyecto consiste en una aplicación web para gestionar un equipo deportivo, concretamente, la plantilla del Paris Saint-Germain. Se ha construido a partir de otra aplicación boceto existente cuya documentación se puede encontrar en la carpeta /docs.
 
-## Development server
+Ha sido desarrollada con HTML5/SCSS/TypeScript y el framework Angular. Posee componentes iniciales (login, forgot-password, not-found) y, además, posee componentes (admin-dashboard, header, footer, home, detail-view, create-form, modify-form) y servicios (player-add, player-modify, player-getter, player-list-transfer) bajo el módulo admin cuya lógica se carga de manera diferida (lazy load).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Al acceder a la aplicación, se pregunta por unas credenciales que son:  U:admin@gmail.com   P:admindaw2
 
-## Code scaffolding
+URL:https://javiersuarezsuarez.github.io/AngularSportTeamPSG/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+¡Espero que la disfrutes!
